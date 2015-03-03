@@ -21,4 +21,11 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    //agregamos wolley & support & weatherlib
+    compile 'com.android.support:appcompat-v7:21.0.+'
+    compile 'com.mcxiaoke.volley:library:1.0.6@aar'
+    compile 'com.survivingwithandroid:weatherlib:1.5.3'
+    compile 'com.survivingwithandroid:weatherlib_volleyclient:1.5.3'
+
 }
